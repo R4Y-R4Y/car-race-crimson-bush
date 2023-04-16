@@ -33,7 +33,7 @@ function LineDashes( props: LineDashesProps ) {
           y: -100,
         },
       ]);
-    }, 60);
+    }, 50);
 
     return () => clearInterval(interval);
   }, []);
@@ -48,7 +48,7 @@ function LineDashes( props: LineDashesProps ) {
       );
     };
 
-    const interval = setInterval(moveDashes,40);
+    const interval = setInterval(moveDashes,16);
 
     return () => clearInterval(interval);
   }, [speed]);

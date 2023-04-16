@@ -33,6 +33,7 @@
 .roadLines{
   width: 10px;
   height: 40px;
+  margin-bottom: 100px;
   position: absolute;
   background: white;
   margin-left: 195px;   /* show line in center = (gameArea.width / 2) - (roadLines.width / 2) */

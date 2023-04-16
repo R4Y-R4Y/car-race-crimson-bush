@@ -3,7 +3,6 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
   min-height: 100vh;
 }
 
@@ -16,6 +15,27 @@
   width: 100%;
   z-index: 2;
   font-family: var(--font-mono);
+}
+
+.gameArea {
+  width: 400px;
+  height: 100vh;
+  background: #2d3436;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+  stroke-dasharray: 60px 20px;
+  border-right: 7px dashed #c8d6e5;
+  border-left: 7px dashed #c8d6e5;
+  background-image: none;
+}
+
+.roadLines{
+  width: 10px;
+  height: 40px;
+  position: absolute;
+  background: white;
+  margin-left: 195px;   /* show line in center = (gameArea.width / 2) - (roadLines.width / 2) */
 }
 
 .description a {
